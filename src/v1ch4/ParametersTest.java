@@ -25,6 +25,9 @@ public class ParametersTest {
     // deliver reference type parameter,
     // the modification of formal parameter will  change original variable.
     private void referenceTypeParameterTest (String s)
+    {
+        return;
+    }
 
     // Java design the delivery of reference parameter by calling by value.
     // the Example proves it.
