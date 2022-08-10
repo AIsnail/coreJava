@@ -19,7 +19,11 @@ public class TimerTest
         // constructor a timer that calls the listener
         // once every second
         var timer = new Timer(1000, listener);
-        //TODO
+        timer.start();
+
+        // keep program running until the user selects "OK"
+        JOptionPane.showMessageDialog(null, "Quit program?");
+        System.exit(0);
     }
 }
 
